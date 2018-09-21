@@ -1,0 +1,343 @@
+p, li{
+    font-family: 'arial',  Times, serif;
+    
+
+
+}
+.firstlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.liste1 {
+    float: left;
+}
+
+.liste1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.liste1 a:hover {
+    background-color: #111;
+}
+nav{
+    max-width: 1140px;
+    margin: auto;
+    color: rgb(37, 37, 37);
+    background-color: #333;
+   
+}
+
+
+.greynav {
+    background: #333;
+}
+
+
+header{
+    background-color: #1f93cc;
+    
+    display: flex;
+    
+    
+    
+}
+
+header p{
+    text-align: center;
+    margin-left: 11%;
+   
+   
+}
+
+.blanc{
+
+font-size: 170%;
+color: azure;
+line-height:50px;
+margin-top:60px;
+
+}
+
+.star{
+
+background-color:rgb(255, 255, 255);
+
+margin:auto;
+text-align: center;
+font-size: 150%;
+
+}
+head img{
+
+float: right;
+
+}
+.droite{
+    text-align: right;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+.liste2{
+width:100%;
+background-color: #1f93cc;
+padding:50px 0;
+list-style-type: none;
+
+}
+header img{  
+    float:left;
+}
+#cible{
+
+    column-count: 2;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em
+    
+    
+    
+}
+.titre{
+
+   font-size: 120%; 
+   
+   
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e99002;
+    border: none;
+    border-radius: 15px;
+    
+    
+  }
+  
+  .button:hover {background-color: #ff8c2d}
+  
+  .button:active {
+    background-color: #ec853f;
+   
+    transform: translateY(4px);
+    
+  }
+
+
+  .innovation{
+
+    color:gray;
+  }
+footer ul{
+
+    display: inline-block;
+    width: 1000px;
+}
+
+.boutongauche {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #165882 ;
+    border: none;
+    border-radius: 15px;
+    
+    
+  }
+  
+  .boutongauche:hover {background-color: #100b53}
+  
+  .boutongauche:active {
+    background-color: #45398a;
+   
+    transform: translateY(4px);
+    
+  }
+
+
+
+  .boutoncentre {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #165882 ;
+    border: none;
+    border-radius: 15px;
+    
+    
+  }
+  
+  .boutoncentre:hover {background-color: #100b53}
+  
+  .boutoncentre:active {
+    background-color: #45398a;
+   
+    transform: translateY(4px);
+    
+  }
+
+
+
+
+  .boutondroite {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e99002;
+    border: none;
+    border-radius: 15px;
+    
+    
+  }
+  
+  .boutondroite:hover {background-color: #bd5500}
+  
+  .boutondroite:active {
+    background-color: #f7b183;
+   
+    transform: translateY(4px);
+    
+  }
+  .boutonbas{
+
+    text-align: center;
+  }
+
+
+
+.lastlist {
+    float: left;
+    background-color: #333;
+}
+
+.lastlist a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.lastlist a:hover {
+    background-color: #111;
+}
+ul#cible{
+
+    list-style-type: none;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color:whitesmoke;
+    text-decoration: none;
+}
+.footer{
+
+    background: #333;
+
+}
+.login{
+
+    text-align: end;
+    display: block;
+    line-height: 3em;
+    height: auto;
+}
+.login a:hover {
+display: flex;
+justify-content: flex-end;
+}
+
+
+/*.mailsection{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    
+}
+
+.mail{
+    
+}
+
+.mailimg{
+    
+    display: block;
+    height: 50px;
+    width: 50px;
+    
+
+}
+*/
+
+
+.mail{
+    position: fixed;
+    top: 600px;
+    left: 1425px;
+
+}
+.mailimg{
+    height: 50px;
+    width: 50px;
+
+}
+
+.sectionlogo{
+
+    background-color: #1f93cc;
+    display: flex;
+    justify-content: center;
+  
+flex-flow: row wrap;
+    
+
+}
+.imglogo{
+
+display: flex;
+padding:10px;
+margin:30px;
+width: 15%;
+
+
+
+}
