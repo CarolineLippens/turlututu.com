@@ -1,4 +1,4 @@
-p, li{
+p, li, a{
     font-family: 'arial',  Times, serif;
     
 
@@ -29,10 +29,12 @@ p, li{
     background-color: #111;
 }
 nav{
-    max-width: 1140px;
-    margin: auto;
-    color: rgb(37, 37, 37);
     background-color: #333;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
    
 }
 
@@ -40,7 +42,34 @@ nav{
 .greynav {
     background: #333;
 }
+.login{
 
+    text-align: right;
+    display: block;
+    line-height: 3em; 
+    margin-right: 50px;
+    margin-left: 0;
+
+
+}
+
+.login :hover{
+
+    background-color: #111;
+    padding: 14px 16px;
+}
+
+.iconlogin{
+    position: relative;
+    top: -5px;
+    left:325px;
+}
+.copyright{
+    text-align: right;
+    display: block;
+    line-height: 3em; 
+    margin-right: 50px;
+}
 
 header{
     background-color: #1f93cc;
@@ -127,7 +156,7 @@ header img{
     outline: none;
     color: #fff;
     background-color: #e99002;
-    border: none;
+    border: solid;
     border-radius: 15px;
     
     
@@ -235,6 +264,7 @@ footer ul{
   .boutonbas{
 
     text-align: center;
+    margin: 50px;
   }
 
 
@@ -255,6 +285,7 @@ footer ul{
 /* Change the link color to #111 (black) on hover */
 .lastlist a:hover {
     background-color: #111;
+
 }
 ul#cible{
 
@@ -271,19 +302,13 @@ a{
 }
 .footer{
 
-    background: #333;
+    background-color: #333;
+    max-width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
 
-}
-.login{
-
-    text-align: end;
-    display: block;
-    line-height: 3em;
-    height: auto;
-}
-.login a:hover {
-display: flex;
-justify-content: flex-end;
 }
 
 
@@ -323,7 +348,7 @@ justify-content: flex-end;
 
 .sectionlogo{
 
-    background-color: #1f93cc;
+    background-color: #acacac;
     display: flex;
     justify-content: center;
   
@@ -334,9 +359,9 @@ flex-flow: row wrap;
 .imglogo{
 
 display: flex;
-padding:10px;
-margin:30px;
-width: 15%;
+padding:0px;
+margin:0px;
+width: 16.8%;
 
 
 
