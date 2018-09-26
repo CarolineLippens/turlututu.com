@@ -1,0 +1,233 @@
+p, li, a {
+  font-family: 'arial',  Times, serif; }
+
+.firstlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333; }
+
+.liste1 {
+  float: left; }
+
+.liste1 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.liste1 a:hover {
+  background-color: #111; }
+
+nav {
+  background-color: #333;
+  max-width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.greynav {
+  background: #333; }
+
+.login {
+  text-align: right;
+  display: block;
+  line-height: 3em;
+  margin-right: 50px;
+  margin-left: 0; }
+  .login:hover {
+    background-color: #111; }
+
+.iconlogin {
+  position: relative;
+  top: -5px;
+  left: 325px; }
+
+.copyright {
+  text-align: right;
+  display: block;
+  line-height: 3em;
+  margin-right: 50px; }
+
+header {
+  background-color: #1f93cc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  header p {
+    text-align: center;
+    margin-left: 11%; }
+
+.blanc {
+  font-size: 170%;
+  color: white;
+  line-height: 50px;
+  margin-top: 60px; }
+
+.star {
+  background-color: white 255, 255, 255;
+  margin: auto;
+  text-align: center;
+  font-size: 150%; }
+
+.droite {
+  text-align: right;
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+.liste2 {
+  width: 100%;
+  background-color: #1f93cc;
+  padding: 50px 0;
+  list-style-type: none; }
+
+#cible {
+  -webkit-column-count: 2;
+  column-count: 2;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70em; }
+
+.titre {
+  font-size: 120%; }
+
+.button {
+  background-color: #e99002; }
+  .button:hover {
+    background-color: #ff8c2d; }
+    .button:hover:active {
+      background-color: #ec853f;
+      -webkit-transform: translateY(4px);
+      -ms-transform: translateY(4px);
+      transform: translateY(4px); }
+
+.innovation {
+  color: gray; }
+
+footer ul {
+  display: inline-block;
+  width: 1000px; }
+
+.button, .boutongauche, .boutoncentre, .boutondroite {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: none;
+  border-radius: 15px; }
+
+.boutongauche {
+  background-color: #165882; }
+  .boutongauche:hover {
+    background-color: #100b53; }
+  .boutongauche:active {
+    background-color: #45398a;
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px); }
+
+.boutoncentre {
+  background-color: #165882; }
+  .boutoncentre:hover {
+    background-color: #100b53; }
+  .boutoncentre:active {
+    background-color: #45398a;
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px); }
+
+.boutondroite {
+  background-color: #e99002; }
+  .boutondroite:hover {
+    background-color: #bd5500; }
+  .boutondroite :active {
+    background-color: #f7b183;
+    -webkit-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    transform: translateY(4px); }
+
+.boutonbas {
+  text-align: center;
+  margin: 50px; }
+
+.lastlist {
+  float: left;
+  background-color: #333; }
+
+.lastlist a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+/* Change the link color to #111 (black) on hover */
+.lastlist a:hover {
+  background-color: #111; }
+
+ul#cible {
+  list-style-type: none; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+a {
+  color: white;
+  text-decoration: none; }
+
+.footer {
+  background-color: #333;
+  max-width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.mail {
+  position: fixed;
+  top: 600px;
+  left: 1425px; }
+
+.mailimg {
+  height: 50px;
+  width: 50px; }
+
+.sectionlogo {
+  background-color: #acacac;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap; }
+
+.imglogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+  width: 16.8%; }
